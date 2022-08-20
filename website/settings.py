@@ -26,12 +26,6 @@ ALLOWED_HOSTS = []
 
 SITE_ID = 1
 
-from django.utils.translation import gettext_lazy as _
-
-LANGUAGES = [
-    ('ru', _('Russian')),
-    ('en', _('English')),
-]
 
 # Application definition
 
@@ -110,9 +104,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'RU-ru'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Moscow'
 
 USE_I18N = True
 
